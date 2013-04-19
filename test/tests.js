@@ -44,7 +44,7 @@ describe('pagination', function () {
     it('should maintain the page links count', function (done) {
         var result;
         for (var i=1; i < 10; i++) {
-            result = pagination({page:1, links: 5, rows: 5, total: 50});
+            result = pagination({page: i, links: 5, rows: 5, total: 50});
             count(result).should.equal(5);
         }
         done();
