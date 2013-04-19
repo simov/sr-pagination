@@ -9,16 +9,9 @@ Simple pagination generator.
 
 
 ##Install
-
-```bash
-$ bower install sr-pagination
-```
-
-or
-
-```bash
-$ npm install sr-pagination
-```
+- [bower][1]: sr-pagination
+- [component][2]: simov/sr-pagination
+- [npm][3]: sr-pagination
 
 ##Usage
 Note that you can use this module with commonjs (nodejs), amdjs or as a global object in the browser.
@@ -34,7 +27,10 @@ var result = pagination({page:1, links: 5, rows: 5, total: 50});
 - **total**: total number of all items
 
 ##Tests
-Make sure you check out the [test][1] page.
+Make sure you check out the [test][4] page.
 
 
-  [1]: http://simov.github.io/sr-pagination/test/
+  [1]: http://sindresorhus.com/bower-components/
+  [2]: http://component.io/
+  [3]: https://npmjs.org/
+  [4]: http://simov.github.io/sr-pagination/test/
